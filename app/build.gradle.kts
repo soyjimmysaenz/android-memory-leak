@@ -49,5 +49,7 @@ dependencies {
     implementation("androidx.navigation:navigation-fragment-ktx:$nav_version")
     implementation("androidx.navigation:navigation-ui-ktx:$nav_version")
 
+    debugImplementation("com.squareup.leakcanary:leakcanary-android:2.12")
+
     testImplementation("junit:junit:4.13.2")
 }
