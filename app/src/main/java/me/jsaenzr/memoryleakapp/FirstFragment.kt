@@ -11,7 +11,7 @@ import me.jsaenzr.memoryleakapp.databinding.FragmentFirstBinding
 class FirstFragment : Fragment() {
 
     private var _binding: FragmentFirstBinding? = null
-    private val binding get() = _binding!!
+    private val binding: FragmentFirstBinding by lazy { _binding!! }
 
     override fun onCreateView(
         inflater: LayoutInflater,
